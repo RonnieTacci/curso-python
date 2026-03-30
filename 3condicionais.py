@@ -22,3 +22,17 @@ if idade >= 18:
 
 else:
     print("Caiu na lei Felca, volte quando tiver idade adequada. ")
+
+
+#Exemplo02:
+
+nota = int(input("Informe sua nota: "))
+
+if nota >= 7:
+    print("APROVADO")
+
+elif nota >= 5:
+    print("RECUPERAÇÃO")
+
+else:
+    print("REPROVADO")
