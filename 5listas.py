@@ -52,3 +52,22 @@ print(frutas)
 
 frutas.pop(0)
 print(frutas)
+
+
+#Tuplas
+#Valores imutaveis. São criadas com parênteses ()
+
+cores = ("vermelho", "verde", "azul")
+numerosFixos = (1, 2, 3, 4, 5)
+
+print(cores[0])
+print(numerosFixos[-1])
+
+
+#Convertendo entre lista e tupla
+
+tupla = (1, 2, 3)
+lista = list(tupla)   #converte para lista
+lista.append(4)
+tupla = tuple(lista)
+print(tupla)
