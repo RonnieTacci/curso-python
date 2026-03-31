@@ -25,4 +25,30 @@ print(frutas)
 print(frutas[0])
 print(frutas[1])
 print(frutas[2])
-print(frutas[-1])
+print(frutas[-1]) #indice negativo conta de tras para frente
+
+# alterar valor 
+
+frutas[0] = "uva"
+
+print(frutas)
+
+# adicionar elementos
+''' append(): adiciona um item ao final
+    insert(): adiciona um item em uma posição espefica'''
+
+numeros.append(6)
+print(numeros)
+
+numeros.insert(1,1.5)
+print(numeros)
+
+# remover elementos
+''' remove(): remove um item pelo valor
+    pop(): remove um iem pelo indice ou o ultimo item se nenhum for passado'''
+
+frutas.remove("banana")
+print(frutas)
+
+frutas.pop(0)
+print(frutas)
